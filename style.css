@@ -29,3 +29,16 @@ h2{
   font-family: 'Covered By Your Grace', cursive;
   color: #EC1C24;
 }
+.larger-monitor{
+  display: none;
+}
+@media (max-width: 1280px){
+  .larger-monitor{
+    width: 200px;
+    left: 50%;
+    margin-left: -100px;
+    position: fixed;
+    top: 50px;
+    display: block;
+  }
+}
